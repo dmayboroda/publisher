@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.publisher.view.PhotoAttach
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post_photo_attach"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/post_link_attach"
+    android:layout_marginTop="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/photo_prev_land"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/photo_prev_port"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView
+        android:id="@+id/photo_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginTop="5dp"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="2"
+        android:shadowDx="2"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        />
+</net.publisher.view.PhotoAttach>

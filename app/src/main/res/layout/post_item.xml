@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.publisher.view.PostView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/post_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginBottom="5dp"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:src="@null"
+        />
+
+    <TextView
+        android:id="@+id/post_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/ic_favorite_black_24dp"
+        android:textSize="18sp"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginBottom="5dp"
+        android:drawablePadding="2dp"
+        android:textColor="@color/color_text_dark"
+        />
+
+    <TextView
+        android:id="@+id/post_reposts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_likes"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/ic_reply_black_24dp"
+        android:textSize="18sp"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginBottom="5dp"
+        android:drawablePadding="2dp"
+        android:layout_alignLeft="@+id/post_likes"
+        android:layout_alignStart="@+id/post_likes"
+        android:textColor="@color/color_text_dark"
+        />
+
+    <TextView
+        android:id="@+id/post_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_text_dark"
+        android:layout_toRightOf="@+id/post_avatar"
+        android:layout_alignTop="@+id/post_avatar"
+        android:textSize="17sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_toLeftOf="@+id/post_likes"
+        android:paddingRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/post_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_text_dark"
+        android:layout_toRightOf="@+id/post_avatar"
+        android:layout_below="@+id/post_author"
+        android:textSize="13sp"
+        android:paddingBottom="2dp"
+        />
+
+    <TextView
+        android:id="@+id/post_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/post_avatar"
+        android:textSize="17sp"
+        android:textColor="@color/color_primary_dark"
+        android:maxLines="15"
+        android:ellipsize="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/post_attach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/post_text"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/post_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/post_attach"
+        />
+
+    <ViewAnimator
+        android:id="@+id/grab_button"
+        android:layout_below="@+id/post_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:clickable="true"
+        >
+
+        <TextView
+            android:id="@+id/grab_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:textColor="@color/color_text"
+            android:shadowColor="@color/semi_color_primary_dark"
+            android:shadowRadius="2"
+            android:shadowDx="2"
+            android:text="@string/grab"
+            />
+    </ViewAnimator>
+
+</net.publisher.view.PostView>

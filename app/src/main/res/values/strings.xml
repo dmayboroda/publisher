@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Публицист</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выйти</string>
+    
+
+    <string name="ok">OK</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_cancel">Отмена</string>
+
+    <integer name="com_vk_sdk_AppId">4933795</integer>
+
+    <string name="error_unknown">Попробуйте повторить запрос позже.</string>
+    <string name="error_settings">Необходимо включить приложение в настройках.</string>
+    <string name="error_method">Проверьте, правильно ли указано название вызываемого метода.</string>
+    <string name="error_sign">Проверьте правильность формирования подписи запроса.</string>
+    <string name="error_auth">Убедитесь, что Вы используете верную схему авторизации.</string>
+    <string name="error_count">Слишком много запросов в секунду.</string>
+    <string name="error_permission">Проверьте, получены ли нужные права доступа при авторизации.</string>
+    <string name="error_mono">Слишком много однотипных действий.</string>
+    <string name="error_request">Проверьте синтаксис запроса и список используемых параметров.</string>
+    <string name="error_server">Произошла внутренняя ошибка сервера.</string>
+    <string name="error_disable_app">Выключите приложение в настройках.</string>
+    <string name="error_unable">Доступ запрещён.</string>
+    <string name="error_https">Требуется выполнение запросов по протоколу HTTPS.</string>
+    <string name="error_validation">Требуется валидация пользователя</string>
+    <string name="error_not_standalone">Данное действие запрещено для не Standalone приложений.</string>
+    <string name="error_only_standalone">Данное действие разрешено только для Standalone.</string>
+    <string name="error_method_disabled">Метод был выключен.</string>
+    <string name="error_user_agreement">Требуется подтверждение со стороны пользователя.</string>
+    <string name="error_params">Один из необходимых параметров был не передан или неверен.</string>
+    <string name="error_app_id">Неверный API ID приложения.</string>
+    <string name="error_user_id">Неверный идентификатор пользователя.</string>
+    <string name="error_timestamp">Неверный timestamp.</string>
+    <string name="error_album">Доступ к альбому запрещён.</string>
+    <string name="error_audio">Доступ к аудио запрещён.</string>
+    <string name="error_group">Доступ к группе запрещён.</string>
+    <string name="error_album_overloaded">Альбом переполнен.</string>
+    <string name="error_translation">Действие запрещено. Вы должны включить переводы голосов в настройках приложения.</string>
+    <string name="error_ads_permission">Нет прав на выполнение данных операций с рекламным кабинетом.</string>
+    <string name="error_ads_manager">Произошла ошибка при работе с рекламным кабинетом.</string>
+
+    <string name="error_network_settings">Проверьте ваше соединение с интернетом.</string>
+    
+    <string name="genre_rock">Rock</string>
+    <string name="genre_pop">Pop</string>
+    <string name="genre_rap_hh">Rap &amp; Hip-Hop</string>
+    <string name="genre_easy">Easy Listening</string>
+    <string name="genre_dance_house">Dance &amp; House</string>
+    <string name="genre_instrumental">Instrumental</string>
+    <string name="genre_metal">Metal</string>
+    <string name="genre_alternative">Alternative</string>
+    <string name="genre_dubstep">Dubstep</string>
+    <string name="genre_jazz_blues">Jazz &amp; Blues</string>
+    <string name="genre_drum_bass">Drum &amp; Bass</string>
+    <string name="genre_trance">Trance</string>
+    <string name="genre_chanson">Chanson</string>
+    <string name="genre_ethnic">Ethnic</string>
+    <string name="genre_acoustic_vocal">Acoustic &amp; Vocal</string>
+    <string name="genre_reggae">Reggae</string>
+    <string name="genre_classic">Classical</string>
+    <string name="genre_indie_pop">Indie Pop</string>
+    <string name="genre_speech">Speech</string>
+    <string name="genre_electropop_disco">Electropop &amp; Disco</string>
+    <string name="genre_other">Other</string>
+
+    <string name="news_title">Новости</string>
+    <string name="groups_title">Группы</string>
+
+    <string name="poll_votes">Проголосовало: %d</string>
+    <string name="wiki">wiki страница</string>
+    <string name="grab">Опубликовать</string>
+    <string name="post_editor">Редактор поста</string>
+    <string name="publish_button">Опубликовать</string>
+    <string name="link_title">Ссылка</string>
+</resources>

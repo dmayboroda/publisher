@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#455A64</color>
+    <color name="color_primary_dark">#37474F</color>
+    <color name="color_accent">#607D8B</color>
+    <color name="color_background">#ECEFF1</color>
+
+    <color name="color_ripple">#B0BEC5</color>
+    <color name="color_ripple_pressed">#90A4AE</color>
+
+    <color name="color_text">#ECEFF1</color>
+    <color name="color_text_dark">#37474F</color>
+
+    <color name="semi_color_ripple">#80B0BEC5</color>
+    <color name="semi_color_ripple_pressed">#9990A4AE</color>
+
+    <color name="semi_color_primary_dark">#8037474F</color>
+</resources>

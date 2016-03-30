@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--drawable/ripple.xml-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false">
+        <layer-list>
+            <item android:bottom="2dp" android:left="2dp" android:right="0dp" android:top="0dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#88333333" />
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+
+            <item android:bottom="1dp" android:left="1dp" android:right="1dp" android:top="1dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/color_ripple" />
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <shape
+            android:shape="rectangle"
+            android:bottom="0dp"
+            android:left="2dp"
+            android:right="0dp"
+            android:top="2dp"
+            >
+            <solid android:color="@color/color_ripple_pressed" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+</selector>

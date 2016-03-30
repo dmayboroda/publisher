@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="wrap_content"
+    android:layout_height="172dp"
+    android:orientation="vertical"
+    android:background="@color/color_background"
+    android:layout_gravity="start"
+    android:theme="@style/ThemeOverlay.AppCompat.Light"
+    >
+
+    <ImageView
+        android:id="@+id/header_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:src="@null"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:elevation="8dp"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/name"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/color_background"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:shadowDx="2"
+        android:shadowRadius="2"
+        android:shadowColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/color_background"
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:shadowDx="2"
+        android:shadowRadius="2"
+        android:shadowColor="@android:color/black"
+        />
+
+</RelativeLayout>

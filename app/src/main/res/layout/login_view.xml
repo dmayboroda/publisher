@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/color_primary_dark"
+    >
+
+    <TextView
+        android:id="@+id/logo_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="45sp"
+        android:textColor="@color/color_text"
+        android:layout_centerInParent="true"
+        android:shadowColor="@color/semi_color_primary_dark"
+        android:shadowDx="2"
+        android:shadowRadius="2"
+        />
+
+    <ViewAnimator
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:elevation="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:layout_marginTop="14dp"
+        >
+
+        <TextView
+            android:id="@+id/login_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp"
+            android:textColor="@color/color_text"
+            android:shadowColor="@color/semi_color_primary_dark"
+            android:shadowDx="2"
+            android:shadowRadius="2"
+            android:text="@string/login"
+            />
+    </ViewAnimator>
+
+</RelativeLayout>

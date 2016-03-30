@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.publisher.view.SimpleAttach
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post_audio_attach"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/semi_color_primary_dark"
+    >
+
+    <ImageView
+        android:id="@+id/attach_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@null"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/attach_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/color_text"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/attach_icon"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_alignParentTop="true"
+        android:paddingTop="2dp"
+        />
+
+    <TextView
+        android:id="@+id/attach_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/attach_icon"
+        android:layout_below="@+id/attach_name"
+        android:layout_marginRight="@dimen/spacing_large"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:shadowColor="@android:color/black"
+        android:textColor="@color/color_text"
+        android:shadowRadius="1"
+        android:shadowDx="1"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="13sp"
+        />
+
+</net.publisher.view.SimpleAttach>
